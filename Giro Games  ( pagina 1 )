@@ -1,0 +1,104 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Giro Games</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                background: linear-gradient(to bottom, #f9f9f9, #eaeaea);
+                color: #333;
+            }
+
+            header {
+                background: #fff;
+                padding: 20px;
+                text-align: center;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            }
+
+            header h1 {
+                font-size: 2rem;
+                color: #2b6cb0;
+                margin: 0;
+            }
+
+            .anuncio {
+                margin: 30px auto;
+                width: 90%;
+                max-width: 400px;
+                height: 200px;
+                background: url("https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-2838-61f7-92a6-c829f9a6714e/raw?se=2025-08-29T01%3A29%3A53Z&sp=r&sv=2024-08-04&sr=b&scid=a646fb5f-914e-50d5-bd6e-b2255031137a&skoid=f28c0102-4d9d-4950-baf0-4a8e5f6cf9d4&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-28T20%3A34%3A14Z&ske=2025-08-29T20%3A34%3A14Z&sks=b&skv=2024-08-04&sig=TXjXDn/jJkf1IS7CMI/tOu4DB6qS3UNuz5s4Mp/THZ8%3D") no-repeat center/cover;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            }
+
+            .conteudo {
+                display: flex;
+                gap: 20px;
+                max-width: 1000px;
+                margin: 40px auto;
+                padding: 0 20px;
+            }
+
+            .coluna {
+                flex: 1;
+                background: #fff;
+                padding: 20px;
+                border-radius: 12px;
+                box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            }
+
+            .coluna img {
+                width: 100%;
+                border-radius: 10px;
+                margin-top: 15px;
+            }
+
+            footer {
+                margin-top: 50px;
+                background: #111;
+                color: #fff;
+                text-align: center;
+                padding: 20px;
+            }
+
+            @media (max-width: 768px) {
+                .conteudo {
+                    flex-direction: column;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Giro Games</h1>
+        </header>
+        <div class="anuncio">
+            <img src="./img/Giro-logo.jpeg" width="100%" height="100%">
+        </div>
+        <section class="conteudo">
+            <div class="coluna">
+                <h2>Lançamentos</h2>
+                <p>Descubra os jogos mais esperados do ano, com gráficos de última geração e experiências imersivas.</p>
+                <a href="https://www.youtube.com/watch?time_continue=1&v=IbN3wvcBH_0&embeds_referring_euri=https%3A%2F%2Fwww.bing.com%2F&embeds_referring_origin=https%3A%2F%2Fwww.bing.com&source_ve_path=Mjg2NjY">
+                    <img src="data:image/jpeg;base64,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" alt="Elden Ring">
+                </a>
+                <a href="https://youtu.be/AWrXpJQBJF0?si=tx8XaZrajjJhkOIR">
+                    <img src=" https://image.api.playstation.com/vulcan/ap/rnd/202501/2901/c200be5371265efb80a1bae120ad3a0f2a3232c6006c0464.jpg">
+            </div>
+</a>
+<div class="coluna">
+    <h2>Promoções</h2>
+    <p>Aproveite descontos exclusivos em jogos populares e clássicos que marcaram gerações.</p>
+    <a href="https://youtu.be/ae-mpZQLM7w?si=GoENXB6DLqLR6Hd6">
+        <img src="https://www.otempo.com.br/content/dam/otempo/editorias/tecnologia%20e%20games/2024/11/tecnologia%20e%20games-grand-theft-auto-vi-gta-6-rockstar-games-jogo-eletronico-1731984123.jpeg">
+    </a>
+   <button >
+    <a href="pagina2.html"> Ir para a Página 2</a>
+   </button>
+</body>
+</html>
+ 
+     
